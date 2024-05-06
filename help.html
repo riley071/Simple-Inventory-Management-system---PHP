@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipment Management System - FAQ</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0350dd;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+
+.faq h3 {
+    color: #333;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.faq h3:hover {
+    background-color: #e0e0e0;
+}
+
+.faq p {
+    color: #666;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Styles for search input */
+.search-container {
+    margin-bottom: 20px;
+}
+
+.search-container input[type=text] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Styles for FAQ sections */
+.faq {
+    margin-bottom: 20px;
+    border: 1px solid #ccc; /* Add border to create a box */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    padding: 10px; /* Add padding for spacing */
+}
+
+.question {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.answer {
+    display: none;
+    margin-top: 10px;
+    color: #666;
+}
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Help Center</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                 <li><a href="#">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h2>Frequently Asked Questions</h2>
+        
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search FAQ...">
+        </div>
+
+        <div id="faqList">
+
+            <section class="faq">
+                <h3 class="question">How do I log in to the inventory management system?</h3>
+                <p class="answer">To log in, navigate to the login page and enter your credentials (username and password) in the designated fields. Then, click on the "Log In" button to access your account.</p>
+            </section>
+            
+            <section class="faq">
+                <h3 class="question">How can I add a new product to the inventory?</h3>
+                <p class="answer">To add a new product, go to the inventory management dashboard and look for the "Add Product" button. Click on it and fill out the required information for the new product, such as name, description, quantity, and price. Then, submit the form to add the product to the inventory.</p>
+            </section>
+            
+            <section class="faq">
+                <h3 class="question">How do I update product information?</h3>
+                <p class="answer">To update product information, navigate to the product details page or the inventory management section where the product is listed. Find the product you want to update and click on the "Edit" or "Update" button. Then, make the necessary changes to the product details and save your updates.</p>
+            </section>
+            
+            <section class="faq">
+                <h3 class="question">How can I track inventory levels?</h3>
+                <p class="answer">To track inventory levels, use the inventory management system's reporting or analytics features. These tools provide real-time insights into current stock levels, sales trends, and inventory turnover rates, helping you make informed decisions about restocking and inventory management.</p>
+            </section>
+            
+            <section class="faq">
+                <h3 class="question">Is it possible to generate inventory reports?</h3>
+                <p class="answer">Yes, the inventory management system allows you to generate various reports, such as inventory turnover reports, stock status reports, and sales reports. Simply navigate to the reporting section of the system, select the desired report type, and customize the parameters as needed. Then, generate and download the report for analysis.</p>
+            </section>
+            
+            <section class="faq">
+                <h3 class="question">How do I remove a product from the inventory?</h3>
+                <p class="answer">To remove a product from the inventory, locate the product in the inventory management system and select the "Delete" option. Confirm the deletion when prompted, and the product will be permanently removed from the inventory.</p>
+            </section>
+            
+            <section class="faq">
+                <h3 class="question">Can I set up alerts for low inventory levels?</h3>
+                <p class="answer">Yes, the inventory management system allows you to set up alerts for low inventory levels. You can define threshold levels for each product and receive notifications when stock levels fall below the specified threshold. This feature helps prevent stockouts and ensures timely reordering of inventory.</p>
+            </section>
+
+            <section class="faq">
+                <h3 class="question">How do I categorize products in the inventory?</h3>
+                <p class="answer">To categorize products, use the inventory management system's product tagging or categorization feature. You can create custom categories or use predefined ones to organize products based on criteria such as type, brand, or department.</p>
+            </section>
+            
+            <section class="faq">
+                <h3 class="question">Can I import existing inventory data into the system?</h3>
+                <p class="answer">Yes, the inventory management system typically supports data import functionality. You can import existing inventory data from CSV files or Excel spreadsheets into the system, making it easier to transition from previous inventory management methods.</p>
+            </section>
+            
+            <section class="faq">
+                <h3 class="question">How do I handle product returns or exchanges?</h3>
+                <p class="answer">To handle product returns or exchanges, use the inventory management system's returns management module. This module allows you to process return requests, update inventory levels accordingly, and manage refunds or exchanges seamlessly.</p>
+            </section>
+            
+            <section class="faq">
+                <h3 class="question">Is it possible to integrate the inventory management system with other software?</h3>
+                <p class="answer">Yes, many inventory management systems offer integration capabilities with other software applications such as accounting software, e-commerce platforms, and point-of-sale (POS) systems. Integration streamlines data sharing and enhances overall efficiency.</p>
+            </section>
+            
+            <section class="faq">
+                <h3 class="question">How can I set up automatic reordering for products?</h3>
+                <p class="answer">To set up automatic reordering, configure the inventory management system's replenishment settings. Specify reorder points and reorder quantities for each product, and enable automatic reorder generation based on predefined criteria such as stock levels or sales forecasts.</p>
+            </section>
+            
+            <section class="faq">
+                <h3 class="question">What security measures are in place to protect inventory data?</h3>
+                <p class="answer">The inventory management system typically employs robust security measures to protect inventory data, including encryption, access controls, user authentication, and regular data backups. These measures help safeguard sensitive information and prevent unauthorized access or data breaches.</p>
+            </section>
+            
+            <section class="faq">
+                <h3 class="question">Can multiple users access the inventory management system simultaneously?</h3>
+                <p class="answer">Yes, most inventory management systems support multi-user access, allowing multiple users to access and work on the system simultaneously. User roles and permissions can be configured to control access levels and ensure data security.</p>
+            </section>
+            
+            <section class="faq">
+                <h3 class="question">How do I reconcile physical inventory counts with system records?</h3>
+                <p class="answer">To reconcile physical inventory counts, conduct regular inventory audits or stocktakes using the inventory management system's auditing tools. Compare physical counts with system records, investigate any discrepancies, and make adjustments as necessary to ensure inventory accuracy.</p>
+            </section>
+            
+            <section class="faq">
+                <h3 class="question">Is there a mobile app available for accessing the inventory management system?</h3>
+                <p class="answer">Yes, many inventory management systems offer mobile apps for iOS and Android devices, allowing users to access key features and perform tasks such as inventory lookup, stock counting, and order processing on the go.</p>
+            </section>
+            
+            <section class="faq">
+                <h3 class="question">How can I track product expiry dates in the inventory?</h3>
+                <p class="answer">To track product expiry dates, use the inventory management system's batch or lot tracking functionality. Assign batch numbers or lot codes to products with expiry dates, and use the system to monitor expiration dates, track product movement, and prevent inventory spoilage.</p>
+            </section>
+            
+            <!-- Add more FAQ sections as needed -->
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Equipment Management System</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // JavaScript for toggling FAQ answers and filtering FAQ items based on search input
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const questions = document.querySelectorAll('.question');
+
+            questions.forEach(question => {
+                question.addEventListener('click', function() {
+                    const answer = this.nextElementSibling;
+                    answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+                });
+            });
+
+            const searchInput = document.getElementById('searchInput');
+            const faqItems = document.querySelectorAll('.faq');
+
+            searchInput.addEventListener('input', function() {
+                const searchTerm = searchInput.value.toLowerCase();
+
+                faqItems.forEach(faqItem => {
+                    const question = faqItem.querySelector('.question').innerText.toLowerCase();
+                    const answer = faqItem.querySelector('.answer').innerText.toLowerCase();
+
+                    if (question.includes(searchTerm) || answer.includes(searchTerm)) {
+                        faqItem.style.display = 'block';
+                    } else {
+                        faqItem.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
