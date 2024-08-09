@@ -2,10 +2,13 @@
  The aim of the Inventory Management System is that it should be able to make customer orders, providing real-time stock tracking, generate reports, manage customers and suppliers.
   
 # Functional Requirements:
+
 •	Register users
+
 The system must allow the admin to be able to register both customer and supplier into the inventory system database.
 
 •	Inventory Management
+
 The system must allow the administrator to manage and update the inventory in real time, including adding new products, updating stock levels, and removing discontinued items.
 
 •	Order Processing
