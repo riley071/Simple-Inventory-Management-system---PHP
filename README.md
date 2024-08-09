@@ -9,21 +9,27 @@ The system must allow the admin to be able to register both customer and supplie
 The system must allow the administrator to manage and update the inventory in real time, including adding new products, updating stock levels, and removing discontinued items.
 
 •	Order Processing
+
 The system must allow the admin to carry out the order processing, allowing retailers/customers to place orders and generate invoice receipts. 
 
-•	Supplier Management
+•	Supplier Management 
+
 The system should facilitate seamless interaction with suppliers, generate automated purchase orders, and manage supplier information.
 
 •	Generate reports 
+
 The system should be able to generate inventory reports. The admin will be able to select a date and print out a report form that can be viewed later on
 
 •	Generate invoices
+
 The system should be able to create invoices upon order. The system to produce an invoice for every order made and it should also allow the admin to print out the invoice report.
 
 •	Email Notifcations
+
 The system should be able to send customets invoices through email. The system to produce an invoice for every order made and it should also allow the admin to send the invoice to customers email.
 
 •	Payment
+
 The system should be should allow customers scan a code and make a payment. 
 ##
 
